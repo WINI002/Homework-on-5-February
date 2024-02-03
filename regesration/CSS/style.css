@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url("C:/Users/DaviD/Desktop/питон/сайты/regesration/regestration/healthy-food-concept-illustration_114360-11817.avif");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 3%;
+    font-family: Noto Sans;
+}
+img{
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 15%;
+    margin-left: 0%;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    text-shadow: 1px 1px 4px grey;
+    text-align: center;
+}
+p{
+    width: 50%;
+    padding: 13px;
+    margin: 23px auto auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 520;
+}
+hr{
+    width: 50%;
+    height: 4px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #50327e;
+}
+form{
+    width: 50%;
+    margin: 30px auto auto;
+    background-color: #50327e;
+    opacity: 0.65;
+    border-radius: 13px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.action{
+    text-align: center;
+}
+.sign-up,.sign-in{
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+}
+.active{
+    color: white;
+    border-bottom: 2px solid orange;
+}
+.sign-up:hover,.sign-in:hover{
+    color: white;
+}
+.fields p{
+    color: #e3e3e3;
+    font-size: 16px;
+}
+.fields input{
+    width: 90%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-radius: border-box;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(200, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    opacity: 0.9;
+}
+.fields ::placeholder{
+    color: rgb(59, 59, 59);
+}
+.wrapper p{
+    display: inline;
+    padding: 5px;
+    color: rgb(222, 221, 221)
+}
+.wrapper input{
+    width: auto;
+}
+.choose{
+    color: white;
+}
+.choose2{
+    color: rgb(186, 255, 255);
+}
+.little-about{
+    color: rgb(246, 220, 255);
+}
+textarea{
+    border-radius: 40px;
+    width: 90%;
+    padding: 10px 5px;
+    background-color: #e3e2e3;
+    text-align: center;
+    opacity: 0.9;
+    border: none;
+
+
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    position: relative;
+    background-color: #0033ff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type="button"]{
+    background-color: rgb(252, 255, 93);
+    color: black;
+    font-weight: 800;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin-top: 4%;
+    height: fit-content;
+    line-height: 250%;
+}
